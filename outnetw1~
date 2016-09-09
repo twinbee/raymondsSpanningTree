@@ -1,0 +1,94 @@
+[matt@twinbee prog6]$ gnatmake as6.adb && ./as6
+gcc -c as6.adb
+gnatlink as6.ali
+
+Raymond's Tree-based Algorithm
+# random seed:       33195321
+Filename:            netw1
+ 0 REQ 5, 0
+                                                                  5 PRV 0, 5
+                                                                  5 in CS.
+ 0 REQ 3, 0
+                                                                  5 out CS.
+ 0 REQ 2, 0
+ 0 REQ 1, 0
+ 0 REQ 4, 0
+                                                                  5 REQ 0, 5
+                                                                  5 in CS.
+                                                                  5 out CS.
+ 0 PRV 5, 0
+ 0 REQ 5, 0
+                                        3 PRV 0, 3
+                                        3 REQ 0, 3
+                                        3 in CS.
+                                        3 out CS.
+                                        3 in CS.
+                                        3 out CS.
+                                        3 in CS.
+                                        3 out CS.
+                                        3 in CS.
+                                        3 out CS.
+                                        3 in CS.
+                                        3 out CS.
+                                        3 in CS.
+                                        3 out CS.
+                                        3 in CS.
+                                        3 out CS.
+ 0 PRV 3, 0
+ 0 REQ 3, 0
+                           2 PRV 0, 2
+                           2 REQ 0, 2
+                           2 in CS.
+                           2 out CS.
+                           2 in CS.
+                           2 out CS.
+                           2 in CS.
+                           2 out CS.
+                           2 in CS.
+                           2 out CS.
+                           2 in CS.
+                           2 out CS.
+                           2 in CS.
+                           2 out CS.
+                           2 in CS.
+                           2 out CS.
+                           2 in CS.
+                           2 out CS.
+                           2 in CS.
+                           2 out CS.
+                           2 in CS.
+                           2 out CS.
+                           2 in CS.
+                           2 out CS.
+ 0 PRV 2, 0
+ 0 REQ 2, 0
+ 0 in CS.
+ 0 out CS.
+              1 PRV 0, 1
+              1 REQ 0, 1
+              1 in CS.
+              1 out CS.
+              1 in CS.
+              1 out CS.
+              1 in CS.
+              1 out CS.
+              1 in CS.
+              1 out CS.
+              1 in CS.
+              1 out CS.
+              1 in CS.
+              1 out CS.
+              1 in CS.
+              1 out CS.
+              1 in CS.
+              1 out CS.
+              1 in CS.
+              1 out CS.
+              1 in CS.
+              1 out CS.
+ 
+(gedit:5438): GnomePrintCupsPlugin-WARNING **: iconv does not support ppd character encoding: ISOLatin1, trying CSISOLatin1
+              1 in CS.
+              1 out CS.
+ 
+[matt@twinbee prog6]$
